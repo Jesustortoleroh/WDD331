@@ -1,0 +1,22 @@
+/* -------------------------------- 
+variables
+------------------------------ */
+$width-icon: 90px;
+$height-icon: 90px;
+$margin-left-icon: 30px;
+$margin-right-icon: 30px;
+
+footer{
+	a{
+	width: $width-icon;
+	height: $height-icon;
+	margin-left: $margin-left-icon;
+	margin-right: $margin-right-icon;
+	}
+
+	a:hover {
+		width: 100px;
+		height: 100px;
+		transition: 0.5s ease-out;
+	  }
+  }
